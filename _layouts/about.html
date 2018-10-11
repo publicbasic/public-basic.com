@@ -1,0 +1,60 @@
+{% include header.html %}
+	<div class="page-content">
+		<div class="hero hero--case">
+			<div class="container">
+				<div class="subsection">
+					{% if page.hero-header %}
+					<h1>
+					{{ page.hero-header }}
+					</h1>
+					{% endif %}
+					
+					{% if page.hero-text %}
+					<p class="hero-text">
+					{{ page.hero-text }}
+					</p>
+					{% endif %}
+
+					{% if page.hero-para %}
+					<p class="hero-para">
+					{{ page.hero-para }}
+					</p>
+					{% endif %}
+					<div class="row">
+						<div class="col-lg-10">
+							{{ page.content }}
+						</div>
+
+<!-- Contact block -->
+						<div class="col-lg-5">
+							<h4 class="mb-2">Contact us</h4>
+							<p class="mb-2">
+								<a href="tel:+61451442720">+614 5144 2720</a><br>
+								<a href="mailto:hi@publicbasic.com">hi@publicbasic.com</a>
+								</p>
+							<address>
+								1 Hope St.<br />
+								Brunswick,  Victoria<br /> 
+								3056, Australia<br />
+							</address>
+						</div>
+<!-- End Contact block -->
+
+					</div>
+				</div>
+	
+
+			<figure>
+				<img class="img-full-width" src="../img/office.jpg" alt="">
+				<figcaption>Our office in Brunswick in Melbourne's inner north</figcaption>
+			</figure>
+
+
+
+</div>
+		
+</div>
+
+</div>
+{% include footer.html %}
+
