@@ -1,2 +1,1 @@
-# public-basic.com
-Public Basic website
+# publicbasic.com
