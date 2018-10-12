@@ -38,11 +38,11 @@
                                             <div class="specs__label">Services</div>
                                         </td>
                                         <td>
-                                            <p><a href="service.html">A/B Testing
+                                            <p><a href="/services">A/B Testing
 </a>
-                                                <br><a href="service.html">User research
+                                                <br><a href="/services">User research
 </a>
-                                                <br><a href="service.html">Interface design</a>
+                                                <br><a href="/services">Interface design</a>
                                             </p>
                                         </td>
                                     </tr>
@@ -63,10 +63,12 @@
         </div>
         <div class="container container--wider">
             <figure>
-                <img class="img-full-width" src="{{ page.big-image }}" alt="">
+                <img class="img-full-width" src="{{ page.image }}" alt="">
                 <div class="row">
                     <div class="col-lg-10">
-                        <figcaption>The exterior of our local Kmart store in Brunswick and their unfortunately fairly graffiti covered neighbours. The store is really nice, though. </figcaption>
+                      <figcaption>
+                        {{ page.caption }}
+                      </figcaption>
                     </div>
                 </div>
             </figure>
@@ -124,11 +126,12 @@
                     <div class="cards-hover-faded">
                         <div class="row">
                             {% for post in site.posts limit: 3 %} {% if post.url != page.url %} {% if forloop.index
-                            < 3 or found %} <div class="col-md-6">
+                            < 3 or found %}
+                            <div class="col-md-6">
                                 <a href="{{ post.url }}">
-                                    <div class="card--faded card--case">
-                                        <div class="embed-responsive embed-responsive-1 mb-3">
-                                            <img class="embed-responsive-item" src="{{ post.client-logo }}" alt="" width="192" style="border: 1px solid rgba(34, 34, 34, 0.125)" />
+                                    <div class="card--faded card--case mb-4">
+                                        <div class="embed-responsive embed-responsive-1 mb-2">
+                                            <img class="embed-responsive-item" src="{{ post.image }}" alt="" width="192" style="border: 1px solid rgba(34, 34, 34, 0.125)" />
                                         </div>
                                         <p class="mb-0"> {{ post.excerpt }}</p>
                                     </div>

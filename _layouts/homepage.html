@@ -6,16 +6,16 @@
 					{% if page.hero-header %}
 					<h1>{{ page.hero-header }}</h1>
 					{% endif %}
-					
+
 					{% if page.hero-text %}
 					<p class="hero-text">{{ page.hero-text }}</p>
 					{% endif %}
-										
+
 					<div class="row">
 						<div class="col-lg-10">
 						{% if page.hero-para %}
 						<p>{{ page.hero-para }}</p>
-						{% endif %}						
+						{% endif %}
 						</div>
 					</div>
 				</div>
@@ -34,12 +34,12 @@
 								<div class="row">
 									<div class="col-md-3">
 										<div class="embed-responsive embed-responsive-1 mb-3 mb-md-0">
-											<img class="embed-responsive-item" src="img/media/phone-hand.jpg" alt="" width="192" />
+											<img class="embed-responsive-item" src="{{ post.image }}" alt="" width="192" />
 										</div>
 									</div>
 									<div class="col-md-9">
 										<div class="media-body">
-											<h3 class="mb-1">{{ post.title }}</h3>
+											<h3 class="mb-1">{{ post.headline }}</h3>
 											<p class="mb-0">{{ post.excerpt }}</p>
 										</div>
 									</div>

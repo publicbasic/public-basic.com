@@ -8,7 +8,7 @@
 					{{ page.hero-header }}
 					</h1>
 					{% endif %}
-					
+
 					{% if page.hero-text %}
 					<p class="hero-text">
 					{{ page.hero-text }}
@@ -23,7 +23,7 @@
 					<div class="row">
 						<div class="col-lg-10">
 							{{ page.content }}
-						</div>	
+						</div>
 
 
 					</div>
@@ -35,7 +35,7 @@
 			<div class="container">
 				<!--.subsection-->
 				<div class="subsection">
-					<div class="cards-faded">					
+					<div class="cards-faded">
 
 						<div class="row">
 {% for post in site.posts %}
@@ -43,12 +43,12 @@
 								<a href="{{ post.url }}">
 									<div class="card-case">
 										<div class="embed-responsive embed-responsive-1 mb-3">
-											<img class="embed-responsive-item" src="img/media/phone-hand.jpg" alt="" width="192" />
+											<img class="embed-responsive-item" src="{{ post.image }}" alt="" width="192" />
 										</div>
 										<p class="mb-0">{{ post.excerpt }}</p>
 									</div>
 								</a>
-								                
+
 
 							</div>
 							    {% endfor %}
