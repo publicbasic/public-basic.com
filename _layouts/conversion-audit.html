@@ -1,0 +1,83 @@
+{% include header.html %}
+	<div class="page-content">
+		<div class="hero hero--case">
+			<div class="container">
+				<div class="subsection">
+					{% if page.hero-header %}
+					<h1>
+					{{ page.hero-header }}
+					</h1>
+					{% endif %}
+					
+					{% if page.hero-text %}
+					<p class="hero-text">
+					{{ page.hero-text }}
+					</p>
+					{% endif %}
+
+					{% if page.hero-para %}
+					<p class="hero-para">
+					{{ page.hero-para }}
+					</p>
+					{% endif %}
+					<div class="row">
+						<div class="col-lg-10">
+							{{ page.content }}
+						</div>	
+
+
+					</div>
+
+				</div>
+			</div>
+		<!--.section-->
+		<div class="section section--cases">
+			<div class="container">			<div class="row">
+				<div class="col-lg-10">
+					<p>Book in a 30 minute introductory strategy call with one of our consultants to discuss:</p>
+					<br>
+					<ul class="list">
+						<li>Your conversion goals</li>
+						<li>How our methodology could best be applied to your business</li>
+						<li>The questions and insights you need to double your sales</li>
+						<li>The cultural, practical and technical considerations that are most likely to be preventing you from growing quickly</li>
+					</ul>
+					<br>
+					<p>There’ll be no commitment or obligation to use our services.</p>
+					<br>
+				</div>
+			</div>
+			<form class="text-sm" action="https://formspree.io/op@publicbasic.com" method="POST">
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label>Name</label>
+							<input type="text" placeholder="Your name" name="name" />
+						</div>
+						<div class="form-group">
+							<label>E-mail</label>
+							<input type="email"  placeholder="Your email address" name="_replyto">
+						</div>
+						<div class="form-group">
+							<label>Telephone</label>
+							<input type="tel" placeholder="Telephone" name="telephone" />
+						</div>
+					</div>
+					<div class="col-md-10">
+						<div class="form-group">
+							<label>Is there anything you’d like us to know?</label>
+							<textarea placeholder="Your message" name="message"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="d-flex align-items-center">
+						<input class="btn btn-primary mr-4 mb-0" type="submit" value="Send"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div></div>
+{% include footer.html %}
+
