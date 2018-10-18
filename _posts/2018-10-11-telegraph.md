@@ -1,7 +1,7 @@
 ---
 layout: case-study-telegraph
-title:  "Telegraph: Building a data driven optimisation program at one of Britain's oldest newspapers"
-headline: "Telegraph: CRO and digital transformation"
+title:  "Telegraph: Building an optimisation practise at one of Britain's oldest newspapers"
+headline: "Telegraph: Building an optimisation practise"
 excerpt: "Building a data driven optimisation program at one of Britain's oldest newspapers"
 hero-header: "Building a data driven optimisation program at one of Britain's oldest newspapers"
 hero-para: "The Telegraph is a daily broadsheet newspaper published in London. Founded 160 years ago, the newspaper maintains a hugely dedicated following of readers and receives 100m visitors to their website every month."
