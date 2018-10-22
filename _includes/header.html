@@ -59,15 +59,26 @@
 							<ul class="navbar-nav text-right">
 								<!--add class="active" to current page link-->
 
+								<!-- check the url for the desired uri part -->
+								{% assign uri_parts = page.url | split: '/' %}
+								{% for uri_part in uri_parts %}
+									{% assign part = uri_part | remove: '/' | remove: '.html' | downcase %}
 
+									{% if part == 'our-work' %}
+										{% assign page_is = part %}
+									{% elsif part == 'services' %}
+										{% assign page_is = part %}
+									{% elsif part == 'about' %}
+										{% assign page_is = part %}
+									{% endif %}									
+								{% endfor %}
+								<!-- end checking the url -->
 
-
-
-								<li class="nav-item"><a class="nav-link hover-underline" href="/our-work">Our work</a>
+								<li class="nav-item"><a class="nav-link hover-underline {%if page_is == 'our-work' %}active{% endif %}" href="/our-work">Our work</a>
 								</li>
-								<li class="nav-item"><a class="nav-link hover-underline" href="/services">Services</a>
+								<li class="nav-item"><a class="nav-link hover-underline {%if page_is == 'services' %}active{% endif %}" href="/services">Services</a>
 								</li>
-								<li class="nav-item"><a class="nav-link hover-underline" href="/about">About</a>
+								<li class="nav-item"><a class="nav-link hover-underline {%if page_is == 'about' %}active{% endif %}" href="/about">About</a>
 								</li>
 							</ul>
 						</div>
