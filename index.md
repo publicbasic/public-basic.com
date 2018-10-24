@@ -1,8 +1,7 @@
 ---
 layout: homepage
 title: "A/B testing, Conversion Rate Optimisation agency Melbourne"
-meta-description: "We’re a customer experience consultancy working to make websites and apps better, easier to use (and more profitable, too)"
-hero-header: "We help our clients internet better"
-hero-text: "We’re a customer experience consultancy working to make websites and apps better, easier to use (and more profitable, too)"
-hero-para: "Recent clients include Kmart, The Telegraph and&nbsp;Nissan"
+meta-description: "We help companies grow through  research, data and experimentation"
+hero-header: "We help companies grow through  research, data and experimentation"
+hero-text: "Plug us into your team to to boost your conversion rate with A/B testing, delight your existing customers and reduce the cost of acquiring new ones"
 ---
