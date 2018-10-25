@@ -1,61 +1,248 @@
-{% include header.html %}
-	<div class="page-content">
-		<div class="hero">
-			<div class="container">
-				<div class="subsection">
-					{% if page.hero-header %}
-					<h1>{{ page.hero-header }}</h1>
-					{% endif %}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-					<div class="row">
-						<div class="col-lg-10">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
 
-					{% if page.hero-text %}
-					<p class="hero-text">{{ page.hero-text }}</p>
-					{% endif %}
-						{% if page.hero-para %}
-						<p>{{ page.hero-para }}</p>
-						{% endif %}
+  <title></title>
+</head>
 
-						<a class="btn btn-primary btn-lg mt-1" href="/conversion-audit">I want a FREE conversion audit </a>
-						</div>
-					</div>
+<body>
+  {% include header.html %}
+
+  <div class="page-content">
+    <div class="hero">
+      <div class="container">
+        <div class="subsection">
+          {% if page.hero-header %}
+
+          <h1>{{ page.hero-header }}</h1>{% endif %}
+
+          <div class="row">
+            <div class="col-lg-10">
+              {% if page.hero-text %}
+
+              <p class="hero-text">{{ page.hero-text }}</p>{% endif %} {% if
+              page.hero-para %}
+
+              <p>{{ page.hero-para }}</p>{% endif %} <a class=
+              "btn btn-primary btn-lg mt-1" href="/conversion-audit">Get your<span style="letter-spacing: .2px;"> FREE </span>conversion audit</a>
+            </div>
+          </div>
 				</div>
 			</div>
-		</div>
-		<!--.section-->
-		<section class="section section--we-get-results">
+			</div>
+
+			<!-- Spot 1 -->
+
+<div style="background-color: #F8E81C;">
 			<div class="container">
-				<!--.subsection-->
-				<div class="subsection">
-					<h2 class="section-title">We get results</h2>
-					<div class="cards-faded">
-					{% for post in site.posts %}
-						<a href="{{ post.url }}">
-							<div class="media--preview card-faded">
-								<div class="row">
-									<div class="col-md-3">
-										<div class="embed-responsive embed-responsive-1 mb-3 mb-md-0">
-											<img class="embed-responsive-item" src="{{ post.image }}" alt="" width="192" />
-										</div>
+
+
+
+				<div class="row no-pad">
+					<div class="row py-5">
+              <div class="col-12 col-md-6 order-md-2 d-flex align-items-center text-center">
+                <div class="container-fluid">
+									<img class="img-fluid" src="img/users.svg" /></div>
+              </div>
+
+              <div class="col-12 col-md-6 order-md-1 mt-3 mt-md-0">
+                <div class="row d-flex h-100">
+                  <div class="col-12">
+                    <div class="container-fluid">
+                      <h2>Making websites more profitable by working hard to understand customers</h2>
+
+                      <p class="mt-3">
+We use evidence based design principles to validate what works and what doesn't.
+                    </div>
+                  </div>
 									</div>
-									<div class="col-md-9">
-										<div class="media-body">
-											<h3 class="mb-1">{{ post.headline }}</h3>
-											<p class="mb-0">{{ post.excerpt }}</p>
+                </div>
+              </div>
+          </div>
+			</div>
+					</div>
+					<!-- End Spot 1 -->
+					<!-- Spot 1 -->
+
+		<div style="background-color: #F6F6F4;">
+					<div class="container">
+
+
+
+		          <div class="row no-pad">
+                <div class="row py-5">
+		              <div class="col-12 col-md-6 order-md-3 d-flex align-items-center text-center">
+		                <div class="container-fluid">
+
+											<img class="img-fluid" src="img/question-marks.svg" />
+
+
 										</div>
-									</div>
-								</div>
+		              </div>
+
+		              <div class="col-12 col-md-6 order-md-4 mt-3 mt-md-0">
+		                <div class="row d-flex h-100">
+		                  <div class="col-12">
+		                    <div class="container-fluid">
+
+
+
+																								<h2>Research eats guessing for breakfast</h2>
+
+																						 	 <p class="mt-3">
+Most websites are great big towering stacks of assumptions, hunches and outright guesses.
+																						 </p>
+																						 <p>
+We use a surprisingly simple method to get to the heart of usability problems: talking to real users.</p>
+
+<!--
+																						 	 <p class="mb-0"><a href="#">Find out about research &gt;</a></p>
+-->
+		                    </div>
+		                  </div>
+											</div>
+		                </div>
+		              </div>
+		          </div>
+					</div>
 							</div>
-						</a>
-					{% endfor %}
-					</div>
-				</div>
-				<!--/.subsection-->
-			</div>
-		</section>
-		<!--/.section-->
+							<!-- End Spot 1 -->
 
-{% include book.html %}
+							<!-- Testimonial -->
+						  <div class="container-fluid">
 
-{% include footer.html %}
+						  <div class="row my-5">
+						    <div class="col-10 offset-1 col-sm-8 offset-sm-2 my-2 my-md-5">
+						      <blockquote class="text-center">
+						        <h2 class="smaller mb-2"  style="font-weight: 400">"They have helped us to improve our site immensely&mdash;not just by boosting conversion but also by helping us identify which areas are worth investing&nbsp;in"</h2>
+						        <img src="img/kmart-logo.svg" class="my-3" width="100px">
+						        <p class="text-xs"><strong>John Ungar</strong> Digital Customer Experience Manager, Kmart Australia</p>
+						      </blockquote>
+						    </div>
+						  </div>
+						</div>
+						  <!-- End Testimonial -->
+
+
+
+							<!-- Spot 1 -->
+
+					<div style="background-color: #F8E81C;">
+							<div class="container">
+
+
+
+								<div class="row no-pad">
+                  <div class="row py-5">
+											<div class="col-12 col-md-6 order-md-2 d-flex align-items-center text-center">
+												<div class="container-fluid">
+													<img class="img-fluid" src="img/a-b-magic.svg" /></div>
+											</div>
+
+											<div class="col-12 col-md-6 order-md-1 mt-3 mt-md-0">
+												<div class="row d-flex h-100">
+													<div class="col-12">
+														<div class="container-fluid">
+															<h2>A/B&nbsp;testing, it's practically magic</h2>
+
+															<p class="mt-3">
+                            Imagine if, instead of having to choose just one solution, you could try two. Or three. Or five. And pit them against each other to see which performs best.
+                            </p>
+
+
+															<p class="mb-0"><a href="#">Find out more &gt;</a></p>
+														</div>
+													</div>
+													</div>
+												</div>
+											</div>
+									</div>
+							</div>
+									</div>
+									<!-- End Spot 1 -->
+									<!-- Spot 1 -->
+
+						<div style="background-color: #F6F6F4;">
+									<div class="container">
+
+
+
+											<div class="row no-pad">
+                        <div class="row py-5">
+													<div class="col-12 col-md-6 order-md-3 d-flex align-items-center text-center">
+														<div class="container-fluid text-center">
+
+															<img class="img-fluid align-middle" src="img/chart.svg" />
+
+
+														</div>
+													</div>
+
+													<div class="col-12 col-md-6 order-md-4 mt-3 mt-md-0">
+														<div class="row d-flex h-100">
+															<div class="col-12">
+																<div class="container-fluid">
+
+
+
+																												<h2>We get results</h2>
+
+																											 <p class="mt-3">
+                                                  We've helped our clients to add tens of millions of dollars in incremental revenue.
+</p>
+                                                   Our scentific approach has boosted conversion rates, reduced the cost of customer acquisition and lead to significant reductions in churn.
+                                                     </p>
+
+																											 <p class="mb-0"><a href="/our-work">Take a look &gt;</a></p>
+
+																</div>
+															</div>
+															</div>
+														</div>
+													</div>
+											</div>
+									</div>
+											</div>
+											<!-- End Spot 1 -->
+
+
+<!-- Hiding results post section
+
+      <div class="container">
+
+        <div class="subsection">
+          <h2 class="section-title">We get results</h2>
+
+          <div class="cards-faded">
+            {% for post in site.posts %} <a href="{{%20post.url%20}}"></a>
+
+            <div class="media--preview card-faded">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="embed-responsive embed-responsive-1 mb-3 mb-md-0">
+                  <img class="embed-responsive-item" src="{{%20post.image%20}}" alt=""
+                  width="192" /></div>
+                </div>
+
+                <div class="col-md-9">
+                  <div class="media-body">
+                    <h3 class="mb-1">{{ post.headline }}</h3>
+
+                    <p class="mb-0">{{ post.excerpt }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>{% endfor %}
+          </div>
+        </div>
+      </div>
+-->
+      {% include book.html %} {% include footer.html %}
+    </div>
+  </div>
+</body>
+</html>
