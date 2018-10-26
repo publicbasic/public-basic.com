@@ -3,7 +3,7 @@ layout: services
 title: "Services: A/B testing, User Research, Analytics"
 meta-description: "We make websites easier to use (and more profitable) by working hard to understand the people who use them"
 hero-header: "Services"
-hero-text: "In the simplest terms, we make websites easier to use (and more profitable) by working hard to understand the people who use them."
+hero-text: "We make websites easier to use (and more profitable) by working hard to understand the people who use them"
 hero-para: "By applying user focused design techniques, we strive to understand user needs, motivations and pain points. 
 <br /><br />
 
