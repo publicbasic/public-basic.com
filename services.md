@@ -10,7 +10,7 @@ hero-para: "By applying user focused design techniques, we strive to understand 
 Once we know all about your customers and what drives them, we channel that knowledge into improving your site and transforming it a lean, mean conversion machine by running validated experiments at scale.
 <br /><br />
 
-We rarely if ever find a website that can’t be significantly improve by our customer centric, data driven approach.
+We rarely find a website that can’t be significantly improve by our customer centric, data driven approach.
 "
 ---
 
