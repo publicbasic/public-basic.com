@@ -1,136 +1,169 @@
-{% include header.html %}
-<div class="page-content">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+
+  <title></title>
+</head>
+
+<body>
+  {% include header.html %}
+
+  <div class="page-content">
     <div class="hero hero--case">
-        <div class="container">
-            <div class="subsection">
-                {% if page.hero-header %}
-                <h1>
-					{{ page.hero-header }}
-					</h1> {% endif %} {% if page.hero-text %}
-                <p class="hero-text">
-                    {{ page.hero-text }}
-                </p>
-                {% endif %} {% if page.hero-para %}
-                <p class="hero-para">
-                    {{ page.hero-para }}
-                </p>
-                {% endif %}
-                <div class="row">
-                    <div class="col-lg-10">
-                        {{ page.content }}
-                    </div>
-                </div>
+      <div class="container">
+        <div class="subsection">
+          {% if page.hero-header %}
+
+          <h1>{{ page.hero-header }}</h1>{% endif %} {% if page.hero-text %}
+
+          <p class="hero-text">{{ page.hero-text }}</p>{% endif %} {% if page.hero-para
+          %}
+
+          <p class="hero-para">{{ page.hero-para }}</p>{% endif %}
+
+          <div class="row">
+            <div class="col-lg-10">
+              {{ page.content }}
             </div>
+          </div>
         </div>
-        <!-- Spot 1 -->
+      </div><!-- Spot 1 -->
+      <!-- End Spot 1 -->
 
-        <div style="background-color: #F8E81C;">
-            <div class="container py-5">
-							<div class="row">
-								<div class="col-12 no-pad text-center">
-
-								<h4>Our approach:</h4>
-								</div>
-							</div>
-                <div class="row">
-
-                    <div class="col-sm-4 text-center d-flex align-items-center justify-content-center mb-5 mb-sm-0">
-                        <img class="img-fluid" src="img/customer-centric.svg">
-                    </div>
-                    <div class="col-sm-4 text-center d-flex align-items-center justify-content-center mb-5 mb-sm-0">
-                        <img class="img-fluid" src="img/data-driven.svg">
-                    </div>
-                    <div class="col-sm-4 text-center d-flex align-items-center justify-content-center">
-                        <img class="img-fluid" src="img/iterative.svg">
-                    </div>
-                </div>
-            </div>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <h2>Why we're great to work with</h2>
+          </div>
         </div>
-        <!-- End Spot 1 -->
-				<div class="container mt-5">
 
-            <div class="row">
-                <div class="col-12">
-                    <h2>Why we're great to work with</h2>
-                </div>
+        <div class="row mt-sm-3">
+          <div class="col-12 col-sm-6">
+            <h3 class="mb-2 mb-sm-0">Flexible engagement model</h3>
+
+            <p>We can work with your existing designers, developers, UXers or we can
+            provide a fully end-to-end managed service. Or somewhere in between.</p>
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <h3 class="mb-2 mb-sm-0">We take you on the journey</h3>
+
+            <p>Unlike some agencies, we don&rsquo;t hide our methods or shut you out of
+            the process. We'll help you to build up the capacity for data driven learning
+            in your team and make experimentation a core part of your process.</p>
+          </div>
+        </div>
+
+        <div class="row mt-sm-3">
+          <div class="col-12 col-sm-6">
+            <h3 class="mb-2 mb-sm-0">Optimisation specialists</h3>
+
+            <p>We've been optimising websites since 2007 and helping been helping enterprise level customers build out
+            experimentation programs since 2013. We've made all the classic mistakes, so that you don't have to.</p>
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <h3 class="mb-2 mb-sm-0">Platform agnostic</h3>
+
+            <p>We&rsquo;re experienced with Optimizely, Adobe Target and Google Optimize.
+            If you have an A/B testing tool already, we can use that. If you don&rsquo;t,
+            we&rsquo;ll help you to find the right platform for your needs.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12 col-lg-10">
+            <h2>Who we are</h2>
+
+            <p> Hi! I’m Oliver Palmer 👋</p>
+            <p>After fifteen years working in the realm of eCommerce, Product and Optimisation, I started Public Basic in 2017.
+</P>
+          </div>
+          </div>
+
+          <div class="row my-4">
+            <div class="col-md-6">
+              <div class="container--mobile-full-width"><img class="img-fluid mb-2" src=
+              "img/me_6x4.jpg" alt="" /></div>
             </div>
-            <div class="row mt-sm-3">
-                <div class="col-12 col-sm-6">
-                    <h3 class="mb-2 mb-sm-0">Flexible engagement model</h3>
-                    <p>We can work with your existing designers, developers, UXers or we can provide a fully end-to-end managed service. Or somewhere in between.
- </p>
-                </div>
-                <div class="col-12 col-sm-6">
-                    <h3 class="mb-2 mb-sm-0">We take you on the journey
-</h3>
-                    <p>
-                      Unlike some agencies, we don’t hide our methods or shut you out of the process. We'll help you to build up the capacity for data driven learning in your team and make experimentation a core part of your process.
-                    </p>
-                </div>
+
+            <div class="col-md-6">
+              <p class="caption pr-3 pr-md-0">This is me with my dog Albert shortly after we had him desexed. Don't worry, the cone was only temporary and for his own good.</p>
             </div>
-            <div class="row mt-sm-3">
-                <div class="col-12 col-sm-6">
-                    <h3 class="mb-2 mb-sm-0">Optimisation specialists
-</h3>
-                    <p>
-                      We’ve been helping enterprise level customers build out experimentation programs for over 5 years. We don’t do SEO or social or any of that other guff.
-                    </p>
-                </div>
-                <div class="col-12 col-sm-6">
-                    <h3 class="mb-2 mb-sm-0">Platform agnostic
-</h3>
-                    <p>
-                      We’re experienced with Optimizely, Adobe Target and Google Optimize. If you have an A/B testing tool already, we can use that. If you don’t, we’ll help you to find the right platform for your needs.
-                </div>
-            </div>
-						</div>
-
-            <!-- Contact block -->
-						<div class="container mt-5">
-
-		            <div class="row">
-		                <div class="col-12">
-									<h2>Contact us</h2>
-								</div>
-								</div>
-								<div class="row">
-								<div class="col-md-6">
-
-
-																		<p class="mb-2">
-																			<a href="tel:+61451442720">+614 5144 2720</a><br>
-																			<a href="mailto:hi@publicbasic.com">hi@publicbasic.com</a>
-																			</p>
-<div class="mt-3">
-																		<address>
-																			1 Hope St.<br />
-																			Brunswick,  Victoria<br />
-																			3056, Australia<br />
-																		</address>
-																		</div>
-									</div>
-
-									<div class="col-lg-6">
-										<img class="img-fluid" src="../img/office.jpg" alt="">
-
-									</div>
-								</div>
-
-
-
-							</div>
-							</div>
-
-
 </div>
+<div class="row">
+  <div class="col-12 col-md-10">
+
+    <p>
+ I ran my first A/B test in 2008 (with the then new Google Webesite Optimiser) while contracting in the UK to a no-win/no-fee law firm. They were spending upwards of £100/click for the keyword ‘Mesothelioma’ (that’s absestos cancer to you and me) to recruit claimants for class action law suits.</p>
+<p>Through a surprisungly short number of iterative testing and research cycles, we managed to halve their (enormous) cost of customer acquisition. In the words of David Ogilvy, "I had tasted blood."</p>
+<p>
+ In 2013, I was hired to set-up an in-house conversion optimisation function at EE (Britain’s largest telco). After a year there, I repeated the process and applied the many lessons learnt at The Telegraph, one of the UK’s oldest broadsheet newspapers.</p>
+
+<p>
+  Now based in Melbourne, I work with a small team of developers, designers and copywriters to run optimisation programs for some of the biggest companies in Australia and around the world.</p>
+<p>
+ I run the meet-up <a href="#">CRO Melbourne</a>, have spoken at <a href="#">Conversion Conference London</a>  and <a href="#">Measure Camp Sydney</a> and I’ve had my work featured on the <a href="#">Optimizely blog</a>.
+</p>
+
+<h2 class="mt-5">Nice things clients have said</h2>
+<p>
+"They have helped us to improve our site immensely—not just by boosting conversion but also by helping us identify which areas are worth investing in.<br /><br />Ollee works really closely with us and has helped us grow our knowledge immensely"</p>
+<p class="text-center text-xs">
+
+  &mdash;John Ungar, Digital CX Manager, Kmart Australia</p>
+
+<p class="mt-5">
+"If you are an Australian organisation that is lucky enough to have Ollee fall into your lap, grab him with both hands - he will make a demonstrable difference to your process and your bottom line."</p>
+<p class="text-center text-xs">
+
+&mdash;Jane Austin, Head of UX, Telegraph Media Group
+</p>
 
 
+<p class="mt-5">
+"Tenacity and confidence to question the status quo are two of Oliver's key strengths.<br /><br />He has done a fantastic job navigating through many changing tools and environments, adding value by rapidly assimilating data into opportunities and looking beyond the surface thanks to his broad knowledge and customer focus."
+</p>
+<p class="text-center text-xs">
+&mdash;Paul Postance, Head of Digital Conversion, EE
+</p>
+</div>
+          </div>
+        </div><!-- Contact block -->
 
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-12">
+              <h2>Contact us</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <p class="mb-2"><a href="tel:+61451442720">+614 5144 2720</a><br />
+              <a href="mailto:hi@publicbasic.com">hi@publicbasic.com</a></p>
+
+              <div class="mt-3">
+                <address>
+                  1 Hope St.<br />
+                  Brunswick,&#8232; Victoria<br />
+                  3056, Australia<br />
+                </address>
+              </div>
+            </div>
+
+            <div class="col-lg-6"><img class="img-fluid" src="../img/office.jpg" alt=
+            "" /></div>
+          </div>
         </div>
-
+      </div>
     </div>
-
-</div>
-{% include book.html %}
-
-{% include footer.html %}
+  </div>{% include book.html %} {% include footer.html %}
+</body>
+</html>
