@@ -12,8 +12,6 @@ permalink: "/services/strategy-session"
 If you’re able to give us temporary access to your analytics platform (we are happy to sign an NDA) then we’ll be able to come prepared with even richer insights.
 </p>
 
-<p>
-This is absolutely FREE and there will be no commitment or obligation to engage our services.
 					<p>
 On the call, we will discuss:
 </p>
@@ -28,7 +26,7 @@ On the call, we will discuss:
 
 <div class="alert alert-warning" role="alert">
 <p class="mb-0">
-We're a small team and only have the ability to take on one or two new clients. If you'd like to see if we're a good fit for your project, please get in touch today.</p></div>
+We're a small team and only have the ability to take on one or two new clients right now.<br /><br />If you'd like to see if we're a good fit for your project, please get in touch today.</p></div>
 <h3 class="mt-5">Leave your details</h3>
 <p>
 Fill out the form below and we'll get in touch within one business day to schedule a time to talk.
