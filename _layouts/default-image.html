@@ -1,0 +1,70 @@
+{% include header.html %}
+	<div class="page-content">
+		<!--
+		<div class="hero hero--case">
+
+			<div class="container">
+							
+
+				<div class="jumbotron p-5">
+  <h1>Most A/B testing and experimentation programs fail</h1>
+  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+ </div>
+ --->
+		
+        <div class="container" style="background-color: #F8E81C;">
+        <div class="row py-5">
+        	<div class="col-12 col-sm-7">
+          					{% if page.hero-header %}
+
+<h1> 					{{ page.hero-header }}
+					{% endif %}
+
+</h1>
+<p>
+	In addition to running fully managed service website optimisation programs, we can also help you to establish your own, enterprise scale experimentation program.
+</p>
+    <a class="btn btn-primary btn-lg mt-3" href="#get-started" role="button">Get started </a>
+
+
+        </div>	
+
+        	<div class="col-5">
+                <img class="img-full-width" src="{{ page.image }}" alt="{{ page.image-alt }}">
+              
+        </div>
+    </div>
+          
+        </div>
+        <div class="container">
+
+  <div class="row">
+                    <div class="col-lg-10">
+                        <figcaption>
+                            {{ page.caption }}
+                        </figcaption>
+                    </div>
+                </div>
+            </div>
+<div class="container">
+
+
+
+					<div class="row">
+						<div class="col-lg-10">
+							{{ content }}
+						</div>
+
+
+					</div>
+				</div>
+
+</div>
+		
+</div>
+
+</div>
+{% include footer.html %}
+
