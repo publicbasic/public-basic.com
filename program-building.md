@@ -1,5 +1,5 @@
 ---
-layout: default-image
+layout: program-building
 title: "Services: Optimisation Program Building"
 permalink: "/services/program-building"
 hero-header: "Build your own optimisation program"

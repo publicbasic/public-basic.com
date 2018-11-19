@@ -1,0 +1,73 @@
+{% include header.html %}
+	<div class="page-content">
+		<div class="hero hero--case">
+			<div class="container">
+				<div class="subsection">
+					{% if page.hero-header %}
+					<h1>
+					{{ page.hero-header }}
+					</h1>
+					{% endif %}
+
+					{% if page.hero-text %}
+					<p class="hero-text">
+					{{ page.hero-text }}
+					</p>
+					{% endif %}
+
+					{% if page.hero-para %}
+					<p class="hero-para">
+					{{ page.hero-para }}
+					</p>
+					{% endif %}
+					<div class="row">
+						<div class="col-lg-10">
+							{{ page.content }}
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+		<!--.section-->
+		<div class="section section--cases">
+			<div class="container">
+				<!--.subsection-->
+				<div class="subsection">
+					<div class="cards-faded">
+
+						<div class="row">
+{% for post in site.posts %}
+							<div class="col-md-6 card-faded">
+								<a href="{{ post.url }}">
+									<div class="card-case">
+										<div class="embed-responsive embed-responsive-1 mb-3">
+											<img class="embed-responsive-item" src="{{ post.thumbnail }}" alt="" width="192" />
+										</div>
+										<p class="mb-0">{{ post.excerpt }}</p>
+									</div>
+								</a>
+
+
+							</div>
+							    {% endfor %}
+						</div>
+					</div>
+				</div>
+				<!--/.subsection-->
+			</div>
+		</div>
+		<!--/.section-->
+	</div>
+
+
+
+		</div>
+
+
+
+
+		</div>
+
+{% include footer.html %}

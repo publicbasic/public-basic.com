@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: client-results
 title: "Client results"
 meta-description: "We work with smart clients who understand that a great customer experience is the key to excellent business"
 hero-header: "Client results"
