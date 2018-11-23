@@ -37,7 +37,16 @@
 
                                     <p class="lead-solo">{{ page.hero-text }}</p>{% endif %} {% if page.hero-para %}
 
-                                    <p>{{ page.hero-para }}</p>{% endif %} <a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session">Claim your<span style="letter-spacing: .2px;"> FREE </span>strategy session</a>
+                                    <p>{{ page.hero-para }}</p>{% endif %} <a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">Claim your<span style="letter-spacing: .2px;"> FREE </span>strategy session</a>
+                                    <!-- Button click tracking -->
+                                    <script type="text/javascript">
+                                      var link = document.getElementById('topStrategySession');
+                                      analytics.trackLink(link, 'Top Strategy Session CTA Clicked',
+                                    	{
+                                        pageTitle: document.title
+                                      });
+                                    	</script>
+                                    	<!-- End Button click tracking -->
                                 </div>
                             </div>
                         </div>
@@ -148,11 +157,11 @@ li.tick:before { content: "✔️"; }
 
 </style>
 <a name="client-results"></a>
-        <div class="secondary py-3">
+        <div class="secondary pt-4">
 
-            <section class="container container--lg py-4">
+            <section class="container container--lg pt-0">
               <div class="row">
-                  <div class="col-12 col-md-10">
+                  <div class="col-12 col-md-10 pt-4">
                       <h2>Client results</h2>
                       <p>
                         We work with smart clients who understand that a great customer experience is the key to excellent business
@@ -218,7 +227,6 @@ We’re unable to talk about alot of our work publicly, but get in touch to find
                 </div>
 
             </section>
-          </div>
 
 
 

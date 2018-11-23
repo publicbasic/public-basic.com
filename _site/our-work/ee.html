@@ -32,6 +32,18 @@
 </script>
  <!-- End Segment tracking -->
 
+ <!-- Pageview tracking -->
+
+ <script type="text/javascript">
+  analytics.track('Page viewed', {
+    date: new Date()
+  });
+</script>
+<!-- End Segment tracking -->
+
+
+
+
 
 </head>
 <body>
@@ -294,8 +306,9 @@ Validating our hypothesis
         </div>
 </div>
 
+<div class="secondary py-5" style="background-color: #F8E71C;">
 		<!--.section-->
-		<section class="section section--book" data-aos="fade-up">
+		<section class="section" data-aos="fade-up">
 			<div class="container container--lg">
 				<div class="row">
 					<div class="col-lg-12">
@@ -310,7 +323,17 @@ Validating our hypothesis
 							<p>
 								There’ll be <strong>no commitment or obligation</strong> to use our services.
 						</p>
-							<br><a class="btn btn-primary btn-lg" href="/services/strategy-session">I want a FREE strategy session </a>
+							<br><a class="btn btn-primary btn-lg" href="/services/strategy-session" id="bottomStrategySession">I want a FREE strategy session </a>
+
+							<!-- Button click tracking -->
+							<script type="text/javascript">
+								var link = document.getElementById('bottomStrategySession');
+								analytics.trackLink(link, 'Bottom Strategy Session CTA Clicked',
+								{
+									pageTitle: document.title
+								});
+								</script>
+
 						</div>
 						<!--/.subsection-->
 					</div>
@@ -318,6 +341,7 @@ Validating our hypothesis
 			</div>
 		</section>
 		<!--/.section-->
+	</div>
 	</div>
 
 </div>
