@@ -52,7 +52,14 @@
  	AOS.init();
 	</script>
 
+
+	{% if page.header-colour == 'yellow' %}
 	<header class="header js-header" style="background-color: #F8E71C;">
+	{% else %}
+	<header class="header js-header"">
+	{% endif %}
+
+
 		<nav class="navbar navbar-expand-md pt-4">
 			<div class="container container--lg">
 				<div class="row align-items-center align-items-md-start">
@@ -86,7 +93,7 @@
 								{% endfor %}
 								<!-- end checking the url -->
 
-
+								<li class="nav-item"><a class="nav-link hover-underline {%if page_is == '' %}active{% endif %}" href="/">Home</a>
 
 								<li class="nav-item"><a class="nav-link hover-underline {%if page_is == 'our-work' %}active{% endif %}" href="/#client-results">Client results</a>
 								</li>

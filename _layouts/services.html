@@ -1,8 +1,11 @@
 {% include header.html %}
 <div class="page-content">
-    <div class="hero hero--case">
-        <div class="container">
-            <div class="subsection">
+  <div class="hero hero--case">
+    <div class="container container--lg">
+      <div class="subsection">
+        <div class="row">
+          <div class="col-xl-10">
+
                 {% if page.hero-header %}
                 <h1>
 					{{ page.hero-header }}
@@ -22,7 +25,9 @@
                 </div>
             </div>
         </div>
-        <div class="row mb-5" style="background-color: #F8E81C;">
+        </div>
+        </div>
+        <div class="row mb-5" style="background-color: #717171;">
             <div class="col-xl-8 offset-xl-2 py-3">
                 <figure>
                     <img class="img-full-width" src="../img/venn-diagram.svg" alt="Sketch of a venn diagram showing 'Design', 'Data' and 'Research' with an arrow pointing to the middle of the diagram and an annotation that says 'Us'">
@@ -32,7 +37,7 @@
     </div>
     <!--.section-->
     <section class="section section--services">
-        <div class="container">
+        <div class="container container--lg">
 
             <div class="specs-bordered">
                 <div class="specs-bordered__row">
@@ -90,7 +95,7 @@
 
     </section>
     <!--/.section-->
-
+</div>
 {% include book.html %}
 
 {% include footer.html %}

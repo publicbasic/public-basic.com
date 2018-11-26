@@ -26,7 +26,7 @@ On the call, we will discuss:
 
 <div class="alert alert-warning" role="alert">
 <p class="mb-0">
-We're a small team and only have the ability to take on one or two new clients right now.<br /><br />If you'd like to see if we're a good fit for your project, please get in touch today.</p></div>
+We only have the ability to take on one or two new clients right now.<br /><br />If you think we could be a good fit for your project, please get in touch today.</p></div>
 <h3 class="mt-5">Leave your details</h3>
 <p>
 Fill out the form below and we'll get in touch within one business day to schedule a time to talk.
