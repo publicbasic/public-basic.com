@@ -1,0 +1,90 @@
+{% include header.html %}
+<div class="page-content">
+	<div class="hero">
+		<div class="container">
+			<div class="subsection">
+				{% if page.hero-header %}
+				<h1>{{ page.hero-header }}</h1>
+				{% endif %}
+				{% if page.hero-subhead %}
+				<p class="hero-text">{{ page.hero-subhead }}</p>
+				{% endif %}
+				{% if page.hero-p %}
+				<p>{{ page.hero-p }}</p>
+				{% endif %}
+				{% if page.hero-cta %}
+				<a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
+				{% endif %}
+				{% if page.cta-eyebrow %}
+				<p class="small">{{ page.cta-eyebrow }}</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+
+	<!--.section-->
+	<div class="secondary" style="background-color: #FFFF88;">
+	<section class="section section--we-get-results">
+		<div class="container pt-5">
+			<!--.subsection-->
+			<div class="subsection">
+				<h2 class="section-title">We get results</h2>
+				<!--
+Hide fade
+				<div class="cards-faded">
+-->
+
+
+					<div class="cards">
+					{% for post in site.posts %}
+			<!--
+			Hide links
+					<a href="{{ post.url }}">
+				-->
+
+						<div class="media--preview card-faded">
+							<div class="row">
+								<div class="col-md-3">
+									<div class="embed-responsive embed-responsive-1 mb-3 mb-md-0">
+										<img class="embed-responsive-item d-xs-block d-md-none" src="{{ post.mobile-thumbnail }}" alt="" width="192" />
+										<img class="embed-responsive-item d-none d-md-block" src="{{ post.desktop-thumbnail }}" alt="" width="192" />
+									</div>
+								</div>
+								<div class="col-md-9">
+									<div class="media-body">
+										<h3 class="mb-1">{{ post.headline }}</h3>
+										<p class="mb-0">{{ post.excerpt }}</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
+					{% endfor %}
+
+				</div>
+			</div>
+			<!--/.subsection-->
+		</div>
+	</section>
+	<!--/.section-->
+</div>
+
+
+
+
+		{% include book.html %}
+	</div>
+	<!--modals before footer-->
+	{% include footer.html %}
+	<!--/.footer-->
+	<!--Scripts-->
+	<!--jQuery-->
+	<script src="/js/jquery-3.2.1.min.js"></script>
+	<!--Framework-->
+	<script src="/js/popper.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+		<!--Others-->
+	<script src="/js/main.js"></script>
+	</body>
+
+	</html>

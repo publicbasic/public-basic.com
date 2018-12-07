@@ -1,9 +1,9 @@
 ---
-layout: homepage
-header-colour: yellow
+layout: index
 title: "A/B testing, Conversion Rate Optimisation agency Melbourne"
-meta-description: "We help companies grow through  research, data and experimentation"
 hero-header: "Delight your customers, increase your sales and slash your paid traffic spend"
-hero-text: "We use research, design and data to fix broken user journeys, increase conversion rates and lower the cost of customer acquisition."
-hero-para: "Sign-up for a free 30 minute strategy session today to find out how we can help your business."
+hero-subhead: We use research, design and data to fix broken user journeys, increase conversion rates and vastly lower the cost of customer acquisition
+hero-p: "Sign-up for a free 30 minute strategy session today to find out how we can help your business."
+hero-cta: "Schedule your<span style='letter-spacing:  .2px;'> FREE </span>strategy session"
+cta-eyebrow: "Recent clients include Kmart, Nissan and The Telegraph"
 ---

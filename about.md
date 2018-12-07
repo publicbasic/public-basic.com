@@ -1,10 +1,10 @@
 ---
 layout: about
-title: "CRO agency, Melbourne Australia"
-meta-description: "We’re a Melbourne based team of designers, builders and data driven optimisers"
-hero-header: "About us"
-hero-text: "Our goal is making your website better through research, design and data"
-hero-para: "Founded in 2017, we’ve helped some of the biggest companies in Australia and around the world to make their websites better, easier to use and more profiable."
+title: "About us | Melbourne CRO Agency"
 permalink: "/about"
+hero-header: "About us"
+hero-subhead: "Our goal is making your website better through research, design and data"
+hero-p: "Founded in 2014, we’ve worked with clients like The Telegraph, EE, Kmart to improve their websites and apps to make them easier to use, more intutive and more profitable.
+<br /><br />
+Based in Melbourne with a small remote team, we’re nimble, passionate and dedicated to optimisation."
 ---
-

@@ -1,6 +1,6 @@
 {% include header.html %}
 <div class="page-content">
-	<div class="hero">
+	<div class="hero pb-0">
 		<div class="container">
 			<div class="subsection">
 				{% if page.hero-header %}
@@ -21,17 +21,31 @@
 			</div>
 		</div>
 	</div>
+
 <!--.section-->
 <section class="section pt-0">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-10">
+			<div class="col-md-12">
 				{{ content }}
 			</div>
 		</div>
 </section>
 <!--/.section-->
-{% include book.html %}
 </div>
 <!--modals before footer-->
 {% include footer.html %}
+<!--/.footer-->
+<!--Scripts-->
+<!--jQuery-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!--Framework-->
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--Styleguide-->
+<script src="js/styleguide.js"></script>
+<!--Others-->
+<script src="js/main.js"></script>
+</body>
+
+</html>
