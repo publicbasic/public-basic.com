@@ -123,11 +123,11 @@
 								{% endif %}
 								{% endfor %}
 								<!-- end checking the url -->
-								<li class="nav-item"><a class="nav-link hover-underline {%if page_is == 'our-work' %}active{% endif %}" href="/">Home</a>
+								<li class="nav-item"><a class="nav-link hover-underline {% if page.url == '/' %}active{% endif %}" href="/">Home</a>
 								</li>
-								<li class="nav-item"><a class="nav-link hover-underline {%if page_is == 'services' %}active{% endif %}" href="/services">Services</a>
+								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'services' %}active{% endif %}" href="/services">Services</a>
 								</li>
-								<li class="nav-item"><a class="nav-link hover-underline {%if page_is == 'about' %}active{% endif %}" href="/about">About</a>
+								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'about' %}active{% endif %}" href="/about">About</a>
 								</li>
 							</ul>
 						</div>
