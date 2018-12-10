@@ -22,7 +22,7 @@ On the call, we will discuss:
 <p>There’ll be <strong>no commitment or obligation</strong> to use our services.</p>
 <div class="alert alert-warning" role="alert" style="background-color: #FFFF88"> 
 <p class="mb-0">
-We are a small team only a very limited capacity to take one or two new clients right now. If you think we're a good fit for your business, please don't delay getting in touch.</p></div>
+We are a small team with the capacity to take on just one or two new clients right now. If you think we're a good fit for your business, please get in touch right away.</p></div>
 <h3 class="mt-5">Leave your details</h3>
 <p>
 Fill out the form below and we'll get in touch within one business day to schedule a time to talk.
