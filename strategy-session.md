@@ -3,11 +3,9 @@ layout: default-no-book
 title: "FREE strategy session"
 hero-header: "Claim a FREE strategy session"
 hero-subhead: "Book a free, no obligation 30 minute call with one of our conversion experts"
-hero-p: "Sign-up for a free 30 minute strategy session today to find out how we can help your business."
+hero-p: "One of our consultants will review your site and identify any potential revenue leaks or usability red flags."
 permalink: "/services/strategy-session"
 ---
-<p>One of our consultants will review your site and identify any potential revenue leaks or usability red flags.
-</p>
 <p>
 If you’re able to give us temporary access to your analytics platform (we are happy to sign an NDA) then we’ll be able to come prepared with even richer insights.
 </p>
