@@ -6,7 +6,7 @@
 	<!-- Meta-->
 	<meta charset="utf-8">
 	<!-- Title-->
-	<title>Public Basic | {{ page.title }}</title>
+	<title>Oliver Palmer | {{ page.title }}</title>
 	<!-- Viewport-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3.0, user-scalable=yes">
 	<!-- Favicon-->
@@ -22,7 +22,7 @@
 	<!-- Meta-->
 	<meta charset="utf-8">
 	<!-- Title-->
-	<title>Public Basic | {{page.title}}</title>
+	<title>Oliver Palmer | {{page.title}}</title>
 	<!-- Viewport-->
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3.0, user-scalable=yes">
 	<!-- Favicon-->
@@ -95,7 +95,7 @@
 		<nav class=" navbar navbar-expand-md pt-4">
 			<div class="container container--md">
 				<div class="row align-items-center align-items-md-start">
-					<div class="col-6"><a class="logo text-nowrap" href="/">Public Basic</a>
+					<div class="col-6"><a class="logo text-nowrap" href="/">Oliver Palmer</a>
 					</div>
 					<div class="col-6 d-md-none">
 						<div class="text-right">
@@ -119,6 +119,8 @@
 								{% assign page_is = part %}
 								{% elsif part == 'services' %}
 								{% assign page_is = part %}
+								{% elsif part == 'case-study' %}
+								{% assign page_is = part %}
 								{% elsif part == 'about' %}
 								{% assign page_is = part %}
 								{% endif %}
@@ -126,10 +128,14 @@
 								<!-- end checking the url -->
 								<li class="nav-item"><a class="nav-link hover-underline {% if page.url == '/' %}active{% endif %}" href="/">Home</a>
 								</li>
-								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'services' %}active{% endif %}" href="/services">Services</a>
-								</li>
 								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'about' %}active{% endif %}" href="/about">About</a>
 								</li>
+								<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'services' %}active{% endif %}" href="/services">Services</a>
+								</li>
+<!--
+									<li class="nav-item"><a class="nav-link hover-underline {% if page_is == 'case-study' %}active{% endif %}" href="/case-study">Case Study</a>
+								</li>
+							-->
 							</ul>
 						</div>
 					</div>

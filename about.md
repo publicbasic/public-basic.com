@@ -1,14 +1,10 @@
 ---
 layout: about
-title: About us | Melbourne CRO Agency
+title: "Melbourne CRO consultant, Conversion Rate Optimisation"
 permalink: "/about"
-hero-header: About us
-hero-subhead: Our goal is making your website better through research, design and
-  data
-hero-p: Founded in 2014, we’ve worked with clients like The Telegraph, EE, Kmart to
-  improve their websites and apps to make them easier to use, more intuitive and more
-  profitable. <br /><br /> Based in Melbourne with a small remote team, we’re nimble,
-  passionate and dedicated to optimisation.
+hero-header: "My goal is making your website better through research, design and
+  data"
+
+hero-p: "I'm a Melbourne based consultant working to solve business problems for clients around the world with data, experimentation and user-centred design "
 
 ---
-Optimisation program building
