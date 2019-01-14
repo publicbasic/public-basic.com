@@ -8,4 +8,3 @@ hero-header: "My goal is making your website better through research, design and
 hero-p: "I'm a Melbourne based consultant working to solve business problems for clients around the world with data, experimentation and user-centred design "
 
 ---
-c

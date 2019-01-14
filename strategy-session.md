@@ -6,9 +6,7 @@ hero-subhead: "Book a free, no obligation 30 minute call to discuss how I can he
 hero-p: ""
 permalink: "/services/strategy-session"
 ---
-<p>
-If you’re able to give me temporary access to your analytics platform (I'm happy to sign an NDA if necessary) then I'll be able to come prepared with even richer insights.
-</p>
+
 <p>
 On the call, we will discuss:
 </p>
