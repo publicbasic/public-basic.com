@@ -1,36 +1,118 @@
 {% include header.html %}
+
 <div class="page-content">
 	<div class="hero">
 		<div class="container">
 			<div class="subsection">
-				{% if page.hero-header %}
 				<h1>{{ page.hero-header }}</h1>
-				{% endif %}
-				{% if page.hero-subhead %}
 				<p class="hero-text">{{ page.hero-subhead }}</p>
-				{% endif %}
-				{% if page.hero-p %}
-				<p>{{ page.hero-p }}</p>
-				{% endif %}
-				{% if page.hero-cta %}
-				<a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
-				{% endif %}
-				{% if page.cta-eyebrow %}
-				<p class="small">{{ page.eyebrow }}</p>
-				{% endif %}
+				<div class="row">
+					<div class="col-lg-10">
+						<p>{{ page.hero-p }}</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-<!--.section-->
-<section class="section pt-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-10">
-				{{ content }}
+	<!--.section-->
+	<!
+	<section class="section section--we-get-results">
+		<div class="container">
+
+			<div class="subsection">
+				<h2 class="section-title">We get results</h2>
+				<div class="cards-faded">
+						<div class="media--preview card-faded">
+							<div class="row">
+								<div class="col-md-10">
+									<div class="media-body">
+										<h3 class="mb-1">Kmart: 1000% more e-mail sign-ups</h3>
+										<p class="mb-0">We worked with Kmart Australia to boost opt-in subscriptions to their Kmail marketing program.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="media--preview card-faded">
+							<div class="row">
+								<div class="col-md-10">
+									<div class="media-body">
+										<h3 class="mb-1">Nissan: 25% more test drive requests</h3>
+										<p class="mb-0">Applying user centred design principles and A/B testing helped us streamline Nissan’s test drive request forms.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="media--preview card-faded">
+							<div class="row">
+
+								<div class="col-md-10">
+									<div class="media-body">
+										<h3 class="mb-1">Telegraph: 14% increased subscription sales</h3>
+										<p class="mb-0">Experimenting with messaging and positioning of subscription packages for one the UK's biggest newspapers.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
 			</div>
+			<!--.subsection-->
+			<!--
+			<div class="subsection">
+				<h2 class="section-title">We get results</h2>
+				<div class="cards-faded">
+						<div class="media--preview card-faded">
+							<div class="row">
+								<div class="col-md-3">
+									<div class="embed-responsive embed-responsive-1 mb-3 mb-md-0">
+										<img class="embed-responsive-item" style="border: solid 1px #ddd" src="img/case-kmart.jpg" alt="" width="192" />
+									</div>
+								</div>
+								<div class="col-md-9">
+									<div class="media-body">
+										<h3 class="mb-1">Kmart: 1000% increase in e-mail subscriptions</h3>
+										<p class="mb-0">We worked with Kmart to boost opt-in subscriptions to their Kmail marketing program.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="media--preview card-faded">
+							<div class="row">
+								<div class="col-md-3">
+									<div class="embed-responsive embed-responsive-1 mb-3 mb-md-0">
+										<img class="embed-responsive-item" style="border: solid 1px #ddd" src="img/case-nissan.jpg" alt="" width="192" />
+									</div>
+								</div>
+								<div class="col-md-9">
+									<div class="media-body">
+										<h3 class="mb-1">Nissan: 25% more test drive requests</h3>
+										<p class="mb-0">Applying user centred design principles and A/B testing helped us streamline Nissan’s test drive request forms.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="media--preview card-faded">
+							<div class="row">
+								<div class="col-md-3">
+									<div class="embed-responsive embed-responsive-1 mb-3 mb-md-0">
+										<img class="embed-responsive-item" style="border: solid 1px #ddd" src="img/case-telegraph.png" alt="" width="192" />
+									</div>
+								</div>
+								<div class="col-md-9">
+									<div class="media-body">
+										<h3 class="mb-1">Telegraph: 14% increased subscription sales</h3>
+										<p class="mb-0">Experimenting with messaging and positioning of subscription packages for one the UK's biggest newspapers.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+			-->
+			<!--/.subsection-->
 		</div>
-</section>
-<!--/.section-->
+	</section>
+	<!--/.section-->
+	{% include book.html %}
 </div>
-<!--modals before footer-->
+
 {% include footer.html %}

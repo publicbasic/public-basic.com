@@ -2,9 +2,16 @@
 layout: about
 title: "Melbourne CRO consultant, Conversion Rate Optimisation"
 permalink: "/about"
-hero-header: "My goal is making your website better through research, design and
-  data"
-
-hero-p: "I'm a Melbourne based consultant working to solve business problems for clients around the world with data, experimentation and user-centred design "
-
+hero-header: "About us"
+hero-subhead: "Founded in 2014, we’ve worked with clients like The Telegraph, EE, Kmart to improve their websites and apps to make them easier to use, more intuitive and more profitable.
+<br /><br />
+We’re based in Melbourne but work with clients across Australia and around the world."
+hero-p: "Founded in 2014, we’ve worked with clients like The Telegraph, EE, Kmart to improve their websites and apps to make them easier to use, more intutive and more profitable.
+<br />
+<br />
+We’re based in Melbourne but work with clients across Australia and around the world."
 ---
+<h2>Our mission</h2>
+<p>
+To help our clients make smarter strategic design decisions backed by research data and genuine user insight.
+</p>

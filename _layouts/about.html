@@ -1,68 +1,61 @@
 {% include header.html %}
-<div class="page-content">
-	<div class="hero">
-		<div class="container">
-			<div class="subsection">
-				{% if page.hero-header %}
-				<h1>{{ page.hero-header }}</h1>
-				{% endif %}
-				{% if page.hero-subhead %}
-				<p class="hero-text">{{ page.hero-subhead }}</p>
-				{% endif %}
-				{% if page.hero-p %}
-				<p>{{ page.hero-p }}</p>
-				{% endif %}
-				{% if page.hero-cta %}
-				<a class="btn btn-primary btn-lg mt-1" href="/services/strategy-session" id="topStrategySession">{{ page.hero-cta }}</a>
-				{% endif %}
-				{% if page.cta-eyebrow %}
-				<p class="small">{{ page.eyebrow }}</p>
-				{% endif %}
-			</div>
-		</div>
-	</div>
-	<div class="container container--wider">
-							<figure>
-								<img class="img-full-width" src="img/ollee-and-albert.jpg" alt="">
-								<div class="row">
-									<div class="col-lg-10">
-										<figcaption>Me with my dog Albert shortly after he was desexed. The cone was only temporary!</figcaption>
+
+	<div class="page-content">
+		<div class="hero hero--case">
+			<div class="container">
+				<div class="subsection">
+					<h1>{{ page.hero-header }}</h1>
+					<p class="hero-text">{{ page.hero-subhead }}</p>
+					<div class="row">
+						<div class="col-lg-10">
+							<p>Founded in 2014, we’ve worked with clients like The Telegraph, EE, Kmart to improve their websites and apps to make them easier to use, more intutive and more profitable.</p>
+						</div>
+						<figure>
+							<img class="img-full-width mt-5" src="img/office.jpg" alt="">
+							<div class="row mb-5">
+								<div class="col-lg-10">
+									<figcaption>Still life at our office in Brunswick with cables, watering can and a copy of the Economist Style Guide (our go to for matters of written style)</figcaption>
+								</div>
+							</div>
+
+						</figure>
+
+						<div class="specs-bordered">
+							<div class="specs-bordered__row">
+								<div class="specs__label">
+									<div class="mb-4"><b>Our beliefs</b>
 									</div>
 								</div>
-							</figure>
+								<ul class="list-group">
+									<li class="list-group-item">Users are the only experts</li>
+									<li class="list-group-item">Data talks, opinions walks</li>
+									<li class="list-group-item">A prototype is worth a thousand meetings</li>
+								</ul>
+							</div>
+							<!--this is for space after row-->
+							<div class="subsection-lg"></div>
+							<div class="specs-bordered__row">
+								<div class="specs__label">
+									<div class="mb-4"><b>Our approach</b>
+									</div>
+								</div>
+								<ul class="list-group">
+									<li class="list-group-item">Customer centric</li>
+									<li class="list-group-item">Data driven</li>
+									<li class="list-group-item">Peformance focused</li>
+								</ul>
+							</div>
+							<!--this is for space after row-->
+							<div class="subsection-lg"></div>
 						</div>
-	<div class="container">
+					</div>
+				</div>
+			</div>
+		</div>
 
-					<blockquote class="text-center my-5">
-														<h2 class="smaller mb-2">"Ollee has helped us to improve our site immensely—not just by boosting conversion but also by identifying which areas are worth investing in"</h2>
-														<p class="text-xs">John Ungar, Digital CX Manager at Kmart Australia</p>
-													</blockquote>
-<p>
-	I organise the conversion optimisation meet-up <a href="https://meetup.com/CRO-Melbourne/">CRO Melbourne</a>, have spoken at <a href="https://conversionconference.co.uk/">Conversion Conference London</a> and <a href="http://sydney.measurecamp.org/">Measure Camp Sydney</a> and had my work featured on the <a href="https://blog.optimizely.com/2016/07/13/how-does-page-load-time-impact-engagement/">Optimizely blog</a>.
-</p>
-<h2 class="mt-5">Contact me</h2>
-
-<div class="row">
-	<div class="col-lg-6 col-md-5">
-		<p class="mb-2 mt-2"><a href="tel:+61451442720">+614 5144 2720</a>
-			<br><a href="mailto:op@publicbasic.com">op@publicbasic.com</a>
-		</p>
-		<address class="mb-0">1 Hope St. Brunswick, <br />
-			Victoria, 3056 Australia</address> <p class="small text-muted mt-0">(By appointment only)</p>
-		<p class="small">
-			ABN: 49 619 947 358</p>
+		{% include book.html %}
 
 	</div>
+	<!--modals before footer-->
 
-</div>
-
-
-
-
-</div>
-{% include book.html %}
-
-
-	<!--/.section-->
-</div><!--modals before footer-->
-{% include footer.html %}
+	{% include footer.html %}

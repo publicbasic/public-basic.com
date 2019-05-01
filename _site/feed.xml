@@ -1,1 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-18T12:39:28+11:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Public Basic</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Nissan</title><link href="http://localhost:4000/client-results/nissan" rel="alternate" type="text/html" title="Nissan" /><published>2018-12-07T11:01:08+11:00</published><updated>2018-12-07T11:01:08+11:00</updated><id>http://localhost:4000/client-results/nissan</id><content type="html" xml:base="http://localhost:4000/client-results/nissan"></content><author><name></name></author><summary type="html">User centred design principles and A/B testing streamline Nissan’s mobile test drive request forms</summary></entry><entry><title type="html">Tmg</title><link href="http://localhost:4000/client-results/telegraph" rel="alternate" type="text/html" title="Tmg" /><published>2018-12-07T11:01:08+11:00</published><updated>2018-12-07T11:01:08+11:00</updated><id>http://localhost:4000/client-results/tmg</id><content type="html" xml:base="http://localhost:4000/client-results/telegraph"></content><author><name></name></author><summary type="html">I worked with one of the UK's largest broadsheet newspapers find the optimal way to position their subscription packages</summary></entry><entry><title type="html">Kmart</title><link href="http://localhost:4000/client-results/kmart" rel="alternate" type="text/html" title="Kmart" /><published>2018-12-07T11:01:08+11:00</published><updated>2018-12-07T11:01:08+11:00</updated><id>http://localhost:4000/client-results/kmart</id><content type="html" xml:base="http://localhost:4000/client-results/kmart"></content><author><name></name></author><summary type="html">1000% increase opt-ins to their Kmail marketing list by applying my experimentation and evidence based design principles</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-05-01T16:23:06+10:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Public Basuic</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">A/B Testing</title><link href="http://localhost:4000/services/a-b-testing" rel="alternate" type="text/html" title="A/B Testing" /><published>2019-04-29T00:00:00+10:00</published><updated>2019-04-29T00:00:00+10:00</updated><id>http://localhost:4000/services/service-a-b-testing</id><content type="html" xml:base="http://localhost:4000/services/a-b-testing">&lt;h3 id=&quot;why-do-this&quot;&gt;Why do this?&lt;/h3&gt;
+
+&lt;p&gt;Most websites are great big piles of guesses, ‘best practise’ and mindlessly copying their competitors. Using A/B testing in conjunction with &lt;a href=&quot;/services/user-research&quot;&gt;user research&lt;/a&gt; allows us to systematically deconstruct your website to  validate which parts work and which ones don’t.&lt;/p&gt;
+
+&lt;p&gt;By carefully designing hypothesis-driven experiments we can trial alternative designs, messages, product features (and just about anything else you can think about it) on your real live site, with your real users, in real time.&lt;/p&gt;
+
+&lt;p&gt;A/B testing software allows us to bypass your internal dev team and quickly deploy live ‘prototypes’ on your site. That means we can get experiments up and running and in days, not weeks or months.&lt;/p&gt;
+
+&lt;p&gt;We’ve used A/B testing to help:&lt;/p&gt;
+
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Identify the right commercial threshold for offering free postage for a department store&lt;/li&gt;
+&lt;li&gt;Reduce in-bound customer support calls for a telco&lt;/li&gt;
+&lt;li&gt;Increase home loan appointments for a bank&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Contact us for case studies and other applications across different industries.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-we-do-it&quot;&gt;How we do it&lt;/h3&gt;
+
+&lt;h4 id=&quot;user-centred-discovery&quot;&gt;User-centred discovery&lt;/h4&gt;
+
+&lt;p&gt;We comb through piles of data and conduct rigorous user research sessions to find the parts of your website that users find difficult or confusing or otherwise problematic.&lt;/p&gt;
+
+&lt;h4 id=&quot;hypothesis-formation--prioritsation&quot;&gt;Hypothesis formation &amp;amp; prioritsation&lt;/h4&gt;
+&lt;p&gt;Organising the insights from our research into themes, we’ll formulate a range of proposed solutions for how we might overcome those issues. Together we’ll prioritise according to ROI and effort.&lt;/p&gt;
+
+&lt;h4 id=&quot;results-focused-testing&quot;&gt;Results-focused testing&lt;/h4&gt;
+
+&lt;p&gt;We deploy multiple test variations in design, functionality, copy (and so on) your ‘problem’ page them serve them to a split audience to see which variant performs best. Once we’ve identified a winner, we can work with your internal dev team to get it live (and serve it too 100% of traffic via our testing tool in the interim).&lt;/p&gt;
+
+&lt;h4 id=&quot;long-term-strategy&quot;&gt;Long-term strategy&lt;/h4&gt;
+
+&lt;p&gt;We’ll help you get some ‘quick wins’ but our approach ensures that changes keep delivering in the long term.&lt;/p&gt;
+
+&lt;p&gt;The best way to help you deliver the best experience for your customer is io help you operate your own optimisation program. Over the years, we’ve engaged in this way with scores of clients to help them build their own internal capacity.&lt;/p&gt;</content><author><name></name></author><summary type="html">Make data-informed decisions through experimentation</summary></entry><entry><title type="html">Case Study Kmart Kmail</title><link href="http://localhost:4000/work/kmart" rel="alternate" type="text/html" title="Case Study Kmart Kmail" /><published>2019-04-18T00:00:00+10:00</published><updated>2019-04-18T00:00:00+10:00</updated><id>http://localhost:4000/work/case-study-kmart-kmail</id><content type="html" xml:base="http://localhost:4000/work/kmart"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Analytics</title><link href="http://localhost:4000/services/analytics" rel="alternate" type="text/html" title="Analytics" /><published>2019-04-18T00:00:00+10:00</published><updated>2019-04-18T00:00:00+10:00</updated><id>http://localhost:4000/services/service-analytics</id><content type="html" xml:base="http://localhost:4000/services/analytics">&lt;h3 id=&quot;what-we-do&quot;&gt;What we do&lt;/h3&gt;
+
+&lt;p&gt;As the saying goes, &quot;If you can’t measure it, you can’t manage it.&quot;&lt;/p&gt;
+
+&lt;p&gt;We’ll help you work out &lt;em&gt;what&lt;/em&gt; you need to measure and &lt;em&gt;how&lt;/em&gt; to use and apply the learnings from the data.&lt;/p&gt;
+
+&lt;p&gt;By aligning business goals with a framework of measurable outcomes, we can help you understand your on-going business performance, uncover weaknesses, threats and opportunities.&lt;/p&gt;
+
+&lt;p&gt;Digging deep into the patterns hidden deep in your analytics allows us to give you actionable insights to improve the performance of your business.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-we-do-it&quot;&gt;How we do it&lt;/h3&gt;
+
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Analytics audit&lt;/li&gt;
+&lt;li&gt;Quantitative review&lt;/li&gt;
+&lt;li&gt;Measurement strategy&lt;/li&gt;
+
+We’re experienced with Google Analytics, Adobe Cloud Marketing Suite, Segment and smaller players like Heap, Amplitude and Mixpanel. We love them all, differently.
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Ensure that your data is relevant, reliable and actionable</summary></entry><entry><title type="html">Consulting &amp;amp; training</title><link href="http://localhost:4000/services/consulting-and-training" rel="alternate" type="text/html" title="Consulting &amp; training" /><published>2019-04-18T00:00:00+10:00</published><updated>2019-04-18T00:00:00+10:00</updated><id>http://localhost:4000/services/service-consulting-and-training</id><content type="html" xml:base="http://localhost:4000/services/consulting-and-training">&lt;p&gt;We do lots of different work helping our clients to get the best out of their website, their team and their tools.&lt;/p&gt;
+
+&lt;p&gt;Here’s a selection of the things that we typically help with:&lt;/p&gt;
+
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Vendor selection&lt;/li&gt;
+&lt;li&gt;Building &amp;amp; scaling optimisation programs&lt;/li&gt;
+&lt;li&gt;Measurement strategy&lt;/li&gt;
+&lt;li&gt;Team training&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/services/strategy-session&quot;&gt;Get in touch&lt;/a&gt; to discuss how we can help.&lt;/p&gt;</content><author><name></name></author><summary type="html">Get the best out of your website, your team and your tools</summary></entry><entry><title type="html">User research</title><link href="http://localhost:4000/services/user-research" rel="alternate" type="text/html" title="User research" /><published>2019-04-18T00:00:00+10:00</published><updated>2019-04-18T00:00:00+10:00</updated><id>http://localhost:4000/services/service-user-research</id><content type="html" xml:base="http://localhost:4000/services/user-research">&lt;h3 id=&quot;why-do-this&quot;&gt;Why do this&lt;/h3&gt;
+&lt;p&gt;If there’s a better way to understand the strengths and weaknesses of a digital product than by showing it to a handful of real users, we haven’t yet found it.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-we-do-it&quot;&gt;How we do it&lt;/h3&gt;
+
+&lt;p&gt;Using a mixture of qualitative and quantitative methods, we’ll help you uncover your customers’ needs, wants, problems and desires:&lt;/p&gt;
+
+&lt;ul class=&quot;list&quot;&gt;
+&lt;li&gt;Usability testing&lt;/li&gt;
+&lt;li&gt;Focus groups&lt;/li&gt;
+&lt;li&gt;Competitor evaluation &amp;amp; benchmarking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Our research will challenge assumptions, validate ideas (and, just as importantly, invalidate others), build empathy and uncover useful insights with clear and actionable recommendations.&lt;/p&gt;
+
+&lt;p&gt;Identifying the blockers and issues faced by your customers allows us to uncover opportunities to improve your customer experience and increase your conversion rate (and delight your customers).&lt;/p&gt;</content><author><name></name></author><summary type="html">Excellent design starts with focused research</summary></entry></feed>
