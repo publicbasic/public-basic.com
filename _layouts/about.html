@@ -1,61 +1,73 @@
 {% include header.html %}
 
-	<div class="page-content">
-		<div class="hero hero--case">
-			<div class="container">
-				<div class="subsection">
-					<h1>{{ page.hero-header }}</h1>
-					<p class="hero-text">{{ page.hero-subhead }}</p>
-					<div class="row">
-						<div class="col-lg-10">
-							<p>{{ page.hero-p }}</p>
-						</div>
-						<figure>
-							<img class="img-full-width mt-5" src="img/office.jpg" alt="">
-							<div class="row mb-5">
-								<div class="col-lg-10">
-									<figcaption>Still life at our office in Brunswick with cables, watering can and a copy of the Economist Style Guide (our go to for matters of written style)</figcaption>
-								</div>
-							</div>
-
-						</figure>
-
-						<div class="specs-bordered">
-							<div class="specs-bordered__row">
-								<div class="specs__label">
-									<div class="mb-4"><b>Our beliefs</b>
-									</div>
-								</div>
-								<ul class="list-group">
-									<li class="list-group-item">Users are the only experts</li>
-									<li class="list-group-item">Data talks, opinions walks</li>
-									<li class="list-group-item">A prototype is worth a thousand meetings</li>
-								</ul>
-							</div>
-							<!--this is for space after row-->
-							<div class="subsection-lg"></div>
-							<div class="specs-bordered__row">
-								<div class="specs__label">
-									<div class="mb-4"><b>Our approach</b>
-									</div>
-								</div>
-								<ul class="list-group">
-									<li class="list-group-item">Customer centric</li>
-									<li class="list-group-item">Data driven</li>
-									<li class="list-group-item">Peformance focused</li>
-								</ul>
-							</div>
-							<!--this is for space after row-->
-							<div class="subsection-lg"></div>
-						</div>
+<div class="page-content">
+	<div class="hero hero--case">
+		<div class="container">
+			<div class="subsection">
+				<h1>{{ page.hero-header }}</h1>
+				<p class="hero-text">{{ page.hero-subhead }}</p>
+				<div class="row">
+					<div class="col-lg-10">
+						<p>{{ page.hero-p }}</p>
 					</div>
 				</div>
-			</div>
+					<figure>
+						<img class="img-full-width mt-5" src="img/office.jpg" alt="">
+						<div class="row mb-5">
+							<div class="col-lg-10">
+								<figcaption>Still life at our office in Brunswick with cables, watering can and a copy of the Economist Style Guide (our go to for matters of written style)</figcaption>
+							</div>
+						</div>
+					</figure>
+
+
+
+
+
+
+							<div class="specs-bordered mt-5">
+								<div class="specs-bordered__row">
+									<div class="specs__label">
+										<div class="mb-4"><b>Our beliefs</b>
+										</div>
+									</div>
+									<ul class="list-group">
+										<li class="list-group-item">Users are the only experts</li>
+										<li class="list-group-item">Data talks, opinions walks</li>
+										<li class="list-group-item">A prototype is worth a thousand meetings</li>
+									</ul>
+								</div>
+								<!--this is for space after row-->
+								<div class="subsection-lg"></div>
+								<div class="specs-bordered__row">
+									<div class="specs__label">
+										<div class="mb-4"><b>Our approach</b>
+										</div>
+									</div>
+									<ul class="list-group">
+										<li class="list-group-item">Customer centric</li>
+										<li class="list-group-item">Data driven</li>
+										<li class="list-group-item">Peformance focused</li>
+									</ul>
+								</div>
+								<!--this is for space after row-->
+								<div class="subsection-lg"></div>
+							</div>
+						</div>								<h2>Contact us</h2>
+															<p>
+													<a href="tel:+61451442720">+614 5144 2720</a><br />
+																<a href="mailto:op@publicbasic.com">op@publicbasic.com</a>
+
+																<address class="mb-0">1 Hope St. Brunswick, <br>
+																	Victoria, 3056 Australia</address>
+																<p class="small mt-3">
+																	ABN: 49 619 947 358</p>
+					</div>
+				</div>
+
+			{% include book.html %}
+
 		</div>
+		<!--modals before footer-->
 
-		{% include book.html %}
-
-	</div>
-	<!--modals before footer-->
-
-	{% include footer.html %}
+		{% include footer.html %}
